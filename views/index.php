@@ -13,6 +13,11 @@
             <button type="submit" name="logout" class="btn btn-primary">Logout</button>
         </form>
     </div>
+    <div class="container">
+        <button onclick="sayHello()" class="btn btn-primary">Say Hello</button>
+    </div>
+
+    <script src="./javascript/script.js"></script>
 </body>
 
 </html>
