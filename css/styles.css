@@ -1,0 +1,13 @@
+.rich-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-item {
+    margin: 10px;
+}
+
+.menu-item img {
+    width: 100px;
+    height: 100px;
+}
