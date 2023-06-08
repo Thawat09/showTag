@@ -31,3 +31,8 @@ body {
     display: flex;
     align-items: center;
 }
+
+.menu-divider {
+    margin: 0 16px;
+    color: #3d3b3b;
+}
