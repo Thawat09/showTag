@@ -1,8 +1,8 @@
-<div class="navbar navbar-dark bg-dark">
-    <a class="active" href="index.php">Home</a>
-    <span class="menu-divider">|</span>
-    <a href="#">Menu 1</a>
-    <div class="topnav-right ml-auto">
-        <a href="#" id="logoutBtn">Logout</a>
+<div class="navbar navbar-dark bg-purple">
+    <a class="active" href="index.php">
+        <img src="./public/logo.jpg" alt="Logo" class="navbar-logo">
+    </a>
+    <div class="navbar-center">
+        <span class="navbar-text" style="color: white;">Equipment Inspection System</span>
     </div>
 </div>

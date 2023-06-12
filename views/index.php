@@ -9,18 +9,6 @@
 </head>
 
 <body>
-    <div class="rich-menu">
-        <div class="menu-item">
-            <a href="room1.php">
-                <img src="./public/home1.png" alt="room1">
-            </a>
-        </div>
-        <div class="menu-item">
-            <a href="https://www.google.com/">
-                <img src="./public/home1.png" alt="Icon 1">
-            </a>
-        </div>
-    </div>
 
     <script src="./javascript/logout.js"></script>
 </body>
