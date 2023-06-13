@@ -11,7 +11,7 @@
 <body>
     <div class="container">
         <div class="table-container">
-            <table class="table table-bordered">
+            <table id="table-data" class="table table-bordered table-wide">
                 <thead class="thead-dark">
                     <tr>
                         <th class="text-center">Name</th>
@@ -31,14 +31,29 @@
             </table>
         </div>
         <div class="date-time-container">
-            <span id="time"></span>
+            <h5 id="time"></h5>
+            <h5 id="date"></h5>
             <br>
-            <span id="date"></span>
+            <div id="equipment-count" class="additional-content">
+                <div class="content-item mt-3">
+                    <h5>All Equipment</h5>
+                    <div class="gray-rectangle">
+                        <p id="all-equipment-count"><?php echo countEquipment($result, '✓'); ?></p>
+                    </div>
+                </div>
+                <div class="content-item mt-3">
+                    <h5>Detect</h5>
+                    <div class="gray-rectangle">
+                        <p id="detect-count"><?php echo countEquipment($result, '✗'); ?></p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
     <script src="./javascript/logout.js"></script>
     <script src="./javascript/time.js"></script>
+    <script src="./javascript/real_time.js"></script>
 </body>
 
 </html>
