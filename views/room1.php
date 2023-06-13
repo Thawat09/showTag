@@ -10,32 +10,35 @@
 
 <body>
     <div class="container">
-        <table class="table table-bordered">
-            <thead class="thead-dark">
-                <tr>
-                    <th class="text-center">Name</th>
-                    <th class="text-center">Matching</th>
-                    <th class="text-center">Date</th>
-                </tr>
-            </thead>
-            <tbody>
-                <?php foreach ($result as $row) : ?>
+        <div class="table-container">
+            <table class="table table-bordered">
+                <thead class="thead-dark">
                     <tr>
-                        <td class="text-center"><?php echo $row['name']; ?></td>
-                        <td class="text-center"><?php echo $row['matching']; ?></td>
-                        <td class="text-center"><?php echo $row['date']; ?></td>
+                        <th class="text-center">Name</th>
+                        <th class="text-center">Matching</th>
+                        <th class="text-center">Date</th>
                     </tr>
-                <?php endforeach; ?>
-            </tbody>
-        </table>
-
+                </thead>
+                <tbody>
+                    <?php foreach ($result as $row) : ?>
+                        <tr>
+                            <td class="text-center"><?php echo $row['name']; ?></td>
+                            <td class="text-center"><?php echo $row['matching']; ?></td>
+                            <td class="text-center"><?php echo $row['date']; ?></td>
+                        </tr>
+                    <?php endforeach; ?>
+                </tbody>
+            </table>
+        </div>
         <div class="date-time-container">
-            <span class="date-time"><?php echo date('H:i:s'); ?><br></span>
-            <span class="date-time"><?php echo date('d-m-Y'); ?><br></span>
+            <span id="time"></span>
+            <br>
+            <span id="date"></span>
         </div>
     </div>
 
     <script src="./javascript/logout.js"></script>
+    <script src="./javascript/time.js"></script>
 </body>
 
 </html>
