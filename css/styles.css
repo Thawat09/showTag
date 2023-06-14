@@ -69,6 +69,11 @@ body {
     height: 120px;
 }
 
+.navbar-logo1 {
+    margin-left: 1px;
+    height: 1px;
+}
+
 .sidebar {
     width: 20%;
     min-width: 200px;
@@ -112,7 +117,7 @@ body {
     height: 100%;
     transform: translateX(auto);
     top: 4cm;
-    left: 0cm;
+    left: -4cm;
 }
 
 .table-container {
@@ -161,7 +166,7 @@ body {
 }
 
 .table-wide {
-    width: 14cm;
+    width: 20cm;
 }
 
 .gray-rectangle {
