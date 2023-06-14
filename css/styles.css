@@ -112,7 +112,7 @@ body {
     height: 100%;
     transform: translateX(auto);
     top: 4cm;
-    left: -1cm;
+    left: 0cm;
 }
 
 .table-container {
@@ -125,7 +125,7 @@ body {
     align-items: center;
     position: relative;
     bottom: 300px;
-    left: 50%;
+    left:57%;
     transform: translate(-150px, -100px);
 }
 
