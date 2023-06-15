@@ -110,18 +110,15 @@ body {
     margin-bottom: 40px;
 }
 
-.table {
+.table-container {
+    margin-bottom: 1em;
     position: relative;
-    top: auto;
-    width: 80%;
-    height: 100%;
-    transform: translateX(auto);
-    top: 4cm;
-    left: -4cm;
+    top: 0cm;
 }
 
-.table-container {
-    margin-bottom: 1.5em;
+#table-data1, #table-data2, #table-data3 {
+    width: 25cm;
+    transform: translateX(-4cm);
 }
 
 .date-time-container {
@@ -129,7 +126,7 @@ body {
     flex-direction: column;
     align-items: center;
     position: relative;
-    bottom: 300px;
+    bottom: 450px;
     left: 57%;
     transform: translate(-150px, -100px);
 }

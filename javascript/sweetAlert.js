@@ -2,7 +2,6 @@ function submitForm() {
     var username = document.getElementById('username').value;
     var password = document.getElementById('password').value;
     var xhr = new XMLHttpRequest();
-
     xhr.open('POST', 'models/login_model.php', true);
     xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
     xhr.onload = function () {
@@ -20,7 +19,6 @@ function submitForm() {
             }
         }
     };
-
     var data = 'username=' + encodeURIComponent(username) + '&password=' + encodeURIComponent(password);
     xhr.send(data);
 }  
