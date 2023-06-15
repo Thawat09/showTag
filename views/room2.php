@@ -51,7 +51,7 @@
         </div>
     </div>
 
-    <script src="./javascript/logout.js"></script>
+    <!-- <script src="./javascript/logout.js"></script> -->
     <script src="./javascript/time.js"></script>
     <script src="./javascript/real_time.js"></script>
 </body>

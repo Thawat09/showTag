@@ -70,8 +70,8 @@ body {
 }
 
 .navbar-logo1 {
-    margin-left: 1px;
-    height: 1px;
+    width: 50px;
+    margin-right: 1cm;
 }
 
 .sidebar {
@@ -130,7 +130,7 @@ body {
     align-items: center;
     position: relative;
     bottom: 300px;
-    left:57%;
+    left: 57%;
     transform: translate(-150px, -100px);
 }
 
