@@ -113,7 +113,7 @@ body {
 .table-container {
     margin-bottom: 1em;
     position: relative;
-    top: 0cm;
+    top: 3cm;
 }
 
 #table-data1, #table-data2, #table-data3 {
@@ -126,7 +126,7 @@ body {
     flex-direction: column;
     align-items: center;
     position: relative;
-    bottom: 450px;
+    bottom: 350px;
     left: 57%;
     transform: translate(-150px, -100px);
 }
@@ -163,7 +163,8 @@ body {
 }
 
 .table-wide {
-    width: 20cm;
+    width: 25cm;
+    margin-left: -5cm;
 }
 
 .gray-rectangle {
