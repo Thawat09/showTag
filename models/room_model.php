@@ -32,23 +32,3 @@ $table .= '</tbody>
         </table>';
 
 echo $table;
-
-// function countEquipment($data, $matching) {
-//     $count = 0;
-//     foreach ($data as $row) {
-//         if ($row['matching'] == $matching) {
-//             $count++;
-//         }
-//     }
-//     return $count;
-// }
-
-// $allEquipmentCount = countEquipment($result, '✓');
-// $detectCount = countEquipment($result, '✗');
-// $response = array(
-//     'allEquipmentCount' => $allEquipmentCount,
-//     'detectCount' => $detectCount
-// );
-
-// header('Content-Type: application/json');
-// echo json_encode($response);

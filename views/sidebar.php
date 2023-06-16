@@ -1,10 +1,14 @@
+<?php
+include './models/sidebar_model.php';
+?>
+
 <div class="sidebar">
     <div class="sidebar-menu">
         <?php
-        for ($i = 1; $i <= 3; $i++) {
-            $room = "Room " . $i;
-            $link = "room.php?room=" . $i;
-            echo '<a href="' . $link . '" class="sidebar-link" onclick="updateTable(' . $i . '); return false;">' . $room . '</a>';
+        foreach ($result as $row) {
+            $room = $row['room'];
+            $link = "room.php?room=" . urlencode($room);
+            echo '<a href="' . $link . '" class="sidebar-link" onclick="updateTable(\'' . $room . '\'); return false;">Room ' . $room . '</a>';
         }
         ?>
     </div>

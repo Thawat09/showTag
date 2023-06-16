@@ -10,8 +10,7 @@ LEFT JOIN name_tag AS nt ON rt.tag = nt.tag
 WHERE rt.room = " . $room;
 $result = $obj->getQuery($sql, 1);
 
-function countEquipment($data, $matching)
-{
+function countEquipment($data, $matching) {
     $count = 0;
     foreach ($data as $row) {
         if ($row['matching'] == $matching) {
