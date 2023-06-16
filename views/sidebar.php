@@ -1,8 +1,12 @@
 <div class="sidebar">
     <div class="sidebar-menu">
-        <a href="room1.php" class="sidebar-link">Room 1</a>
-        <a href="room2.php" class="sidebar-link">Room 2</a>
-        <a href="room3.php" class="sidebar-link">Room 3</a>
+        <?php
+        for ($i = 1; $i <= 3; $i++) {
+            $room = "Room " . $i;
+            $link = "room" . $i . ".php";
+            echo '<a href="' . $link . '" class="sidebar-link">' . $room . '</a>';
+        }
+        ?>
     </div>
     <div>
         <a href="#" class="sidebar-link" id="logoutBtn">Logout</a>
