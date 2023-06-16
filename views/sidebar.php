@@ -3,8 +3,8 @@
         <?php
         for ($i = 1; $i <= 3; $i++) {
             $room = "Room " . $i;
-            $link = "room" . $i . ".php";
-            echo '<a href="' . $link . '" class="sidebar-link">' . $room . '</a>';
+            $link = "room.php?room=" . $i;
+            echo '<a href="' . $link . '" class="sidebar-link" onclick="updateTable(' . $i . '); return false;">' . $room . '</a>';
         }
         ?>
     </div>
